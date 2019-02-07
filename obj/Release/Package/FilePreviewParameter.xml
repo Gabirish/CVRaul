@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="CVRaul" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Vini_\\source\\repos\\CVRaul\\CVRaul\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Vini_\\source\\repos\\CVRaul\\CVRaul\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="CVRaul-Web.config Connection String" description="" value="Data Source=tcp:cvraul.database.windows.net,1433;Initial Catalog=CVRaulContext;User ID=raul@cvraul.database.windows.net;Password=816RA720ul" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Vini_\\source\\repos\\CVRaul\\CVRaul\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='CVRaul']/@connectionString" />
+  </parameter>
+</parameters>

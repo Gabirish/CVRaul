@@ -1,0 +1,245 @@
+﻿body {
+    background-image: url('Images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Raleway, Open Sans, Droid Sans, Roboto,arial, sans-serif;
+    font-size: 16px;
+}
+
+#mydivheader {
+    width: 86vw;
+}
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 400px;
+}
+
+
+
+.jumbotron {
+    background: none;
+}
+
+a {
+    color: red;
+}
+
+.blurred-bg {
+    background-image: url('Images/background2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.box {
+    margin: auto;
+    left: calc(8% - 25px);
+    top: 13%;
+    position: absolute;
+    border-radius: 5px;
+    box-shadow: 0 20px 30px rgba(0,0,0,.6);
+    border: 1px solid rgba(255,255,255,.3);
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    display: flex;
+    transition: box-shadow .3s ease;
+    width: 90%;
+}
+
+.content {
+    margin: auto;
+}
+
+
+
+/*.paralax {
+    height: 500px;
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+
+
+#parallaxBar {
+    height: 500px;
+    width: 100%;
+    background-color: #004c82;
+    background: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full%20page/img%20(3).jpg") 50% 0 fixed;
+    position: relative;
+}
+
+
+/*#Universe {
+    background-image: url("https://hypescience.com/wp-content/uploads/2016/09/universo-1-838x474.jpg");
+   
+}*/
+
+.conteudo {
+    width: 90%;
+}
+
+#mydiv {
+    margin-bottom: 100px;
+    padding-bottom: 50px;
+}
+
+#sobreMim {
+    margin: auto;
+    margin-top: 40px;
+    text-align: left;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.listaUl {
+    width: 20%;
+    float: left;
+}
+
+#alerta {
+    margin-bottom: 25px;
+}
+
+#dadosDeContato {
+    text-align: left;
+    margin-left: 5%;
+}
+
+.carousel-inner {
+    width: 60%;
+    height: 20vw;
+    margin: auto;
+}
+
+
+.carousel .carousel-item img {
+    height: 20vw;
+    width: auto;
+    margin: auto;
+}
+
+/*#entityImg {
+    height: 250px;
+   
+}*/
+
+#aboutContainer {
+    margin: auto;
+}
+
+.section-content {
+    margin: auto;
+}
+
+a {
+    color: blue;
+}
+
+.navbar {
+    z-index: 9999;
+    position: fixed;
+    width: 100%;
+}
+
+
+@media screen and (max-device-width: 860px) {
+
+    /*#parallaxBar {
+        width: 100%;
+        height: 350px;
+    }*/
+
+    body {
+        background-image: url('Images/backgroundVertical.jpg');
+        background-size: 100% 100vh;
+    }
+
+    .blurred-bg {
+        background-image: url('Images/background2Vertical.jpg');
+    }
+
+    #mydiv {
+        margin-bottom: 20px;
+    }
+
+    .carousel-indicators {
+        visibility: hidden;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .box {
+        left: 0;
+        right: 0;
+    }
+
+    ul {
+        width: unset !important;
+    }
+
+    .form-control {
+        width: 90%;
+    }
+
+    .semPaddingMobile {
+        padding: 0;
+    }
+
+    /*.box {
+        position: unset;
+        margin-top: 20%;
+    }
+
+    #ajustesFooter {
+        position: unset;
+        margin-top: 25%;
+    }*/
+}
+
+
+
+#justpushtobottom {
+    height: 52vh;
+}
+
+#ajustesFooter {
+
+    width: 100%;
+    height:50px;
+}
+
+#midias {
+    padding-top: 8px;
+}
+
+#faceLogoFooter {
+ margin-top:-3px;
+    height: 30px;
+}
+
+#linkedinLogoFooter {
+    height: 37px;
+}

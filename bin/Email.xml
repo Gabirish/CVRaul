@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Email</name>
+    </assembly>
+    <members>
+        <member name="M:Email.Email.EnviarEmail(System.String,System.String,System.String,System.String)">
+            <summary>
+            Realiza o envio do e-mail e retorna uma string. Caso enviado com sucesso, retorna null. Caso tenha tido um erro no envio, retornará
+            o erro encontrado.
+            </summary>
+            <param name="email"> Email da pessoa realizando o contato</param>
+            <param name="assunto"> Assunto do contato </param>
+            <param name="nome"> Nome da pessoa relizando o contato </param>
+            <param name="mensagem"> Mensagem enviada </param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

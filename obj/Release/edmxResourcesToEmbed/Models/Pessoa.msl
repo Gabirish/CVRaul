@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CadastrosModelStoreContainer" CdmEntityContainer="CadastrosEntities">
+    <EntitySetMapping Name="Pessoa">
+      <EntityTypeMapping TypeName="CadastrosModel.Pessoa">
+        <MappingFragment StoreEntitySet="Pessoa">
+          <ScalarProperty Name="PessoaID" ColumnName="PessoaID" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="Cpf" ColumnName="Cpf" />
+          <ScalarProperty Name="Telefone" ColumnName="Telefone" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Cep" ColumnName="Cep" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Cidade" ColumnName="Cidade" />
+          <ScalarProperty Name="Bairro" ColumnName="Bairro" />
+          <ScalarProperty Name="Rua" ColumnName="Rua" />
+          <ScalarProperty Name="Numero" ColumnName="Numero" />
+          <ScalarProperty Name="Complemento" ColumnName="Complemento" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

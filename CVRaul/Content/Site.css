@@ -1,0 +1,105 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    /*background-color: gray;*/
+    /*background: url("https://wallpapertag.com/wallpaper/full/1/4/c/19373-free-download-background-wallpaper-2560x1600-for-phone.jpg") no-repeat top !important;*/
+    height: 100vh; /* =h */
+    background-size: cover;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.carousel .item img {
+    height: 300px;
+    width: auto;
+    margin: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .carousel .item img {
+        height: 100px;
+        width: auto;
+        margin: auto;
+    }
+}
+
+.branco {
+    color: white !important ;
+}
+
+.jumbotron {
+    background:none;
+}
+.containter
+{
+    opacity: 1 !important;
+}
+
+body,
+.blurred-bg-container .content h1 {
+    margin: 0;
+}
+
+.blurred-bg-container {
+    background: url(https://wallpapertag.com/wallpaper/full/1/4/c/19373-free-download-background-wallpaper-2560x1600-for-phone.jpg);
+    height: 100vh; /* =h */
+    background-size: cover;
+}
+
+    .blurred-bg-container .content {
+        background: inherit;
+        width: 60%; /* =cw */
+
+        border-radius: 8px;
+        box-shadow: 0 0 32px rgba(0, 0, 0, 0.5);
+        position: absolute;
+        top: 50%; /* =ct */
+        left: 40%; /* =cl */
+        transform: translate(-50%, -50%);
+        overflow: hidden;
+        margin: 2% auto 0 auto;
+    }
+
+    .blurred-bg-container .text {
+        padding: 16px;
+        background: rgba(255, 255, 255, 0.3);
+        height: 100%;
+        box-sizing: border-box; /* so that padding is included in height */
+        /*font-weight: bold;*/
+        color:black;
+    }
+
+    .blurred-bg-container .blur {
+        background: inherit;
+        height: 100vh; /* h */
+        width: 166.667%; /* (100/cw) x 100% */
+        position: absolute;
+        left: 0;
+        top: 0;
+        transform: translate( -10%, -30% ); /* (100/cl) x (100-cw) %, (100/ct) x (100-ch) % */
+        filter: blur(20px);
+        z-index: -1;
+    }
+
+a {
+    color:red;
+}
