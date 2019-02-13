@@ -81,11 +81,12 @@ a {
 
 
 #parallaxBar {
-    height: 500px;
+    height: 550px;
     width: 100%;
     background-color: #004c82;
-    background: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full%20page/img%20(3).jpg") 50% 0 fixed;
-    position: relative;
+    background: url('Images/Raul Foto.png') 0 0 no-repeat;
+    background-size:70%;
+    background-position: 70% -73px;
 }
 
 
@@ -166,10 +167,12 @@ a {
 
 @media screen and (max-device-width: 860px) {
 
-    /*#parallaxBar {
-        width: 100%;
-        height: 350px;
-    }*/
+    #avisoArrastavel
+    {
+        visibility: hidden;
+    }
+
+
 
     body {
         background-image: url('Images/backgroundVertical.jpg');
@@ -217,6 +220,15 @@ a {
         position: unset;
         margin-top: 25%;
     }*/
+
+    #parallaxBar {
+        height: 90vw;
+        width: 100%;
+        background-color: #004c82;
+        background: url('Images/Raul Foto.png') 0 0 no-repeat;
+        background-size: 70%;
+        background-position: 50% -50px;
+    }
 }
 
 

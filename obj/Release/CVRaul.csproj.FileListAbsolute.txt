@@ -1,5 +1,4 @@
 C:\Users\Vini_\source\repos\CVRaul\CVRaul\bin\ApplicationInsights.config
-C:\Users\Vini_\source\repos\CVRaul\CVRaul\bin\CVRaul.dll.config
 C:\Users\Vini_\source\repos\CVRaul\CVRaul\bin\CVRaul.dll
 C:\Users\Vini_\source\repos\CVRaul\CVRaul\bin\CVRaul.pdb
 C:\Users\Vini_\source\repos\CVRaul\CVRaul\bin\roslyn\csc.exe

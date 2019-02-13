@@ -26,7 +26,7 @@
                 @(Html.ActionLink("Home", "Index", "Home", null, new { @class = "av-item nav-link" }))
                 @(Html.ActionLink("O Projeto", "About", "Home", null, new { @class = "av-item nav-link" }))
                 @(Html.ActionLink("Contato", "Contact", "Home", null, new { @class = "av-item nav-link" }))
-
+                @(Html.ActionLink("Portfolio", "Portfolio", "Home", null, new { @class = "av-item nav-link" }))
 
             </div>
 
@@ -110,9 +110,16 @@
 
         $("#justpushtobottom").css({ 'height': ($("#mydiv").height() + 'px') });
 
+        var altura = $("#mydiv").height();
+
+        if (altura < 453)
+        {
+            altura = 453;
+        }
+
         $(document).ready(function () {
             $(window).resize(function () {
-                $("#justpushtobottom").css({ 'height': (($("#mydiv").height() + 300) + 'px') });
+                $("#justpushtobottom").css({ 'height': ((altura + 250) + 'px') });
             });
 
             $(window).resize();

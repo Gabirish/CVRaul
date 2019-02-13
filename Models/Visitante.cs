@@ -67,7 +67,7 @@ namespace CVRaul.Models
             return VisitorsIPAddr;
         }
 
-        public class CVRaulDBContext : DbContext
+        public class CVRaulDBContext : DbContext    
         {
             public DbSet<Visitante> Visitantes { get; set; }
             public CVRaulDBContext() : base("CVRaul")

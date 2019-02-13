@@ -1,5 +1,4 @@
 C:\Users\Vini_\source\repos\CVRaul\CVRaul\bin\ApplicationInsights.config
-C:\Users\Vini_\source\repos\CVRaul\CVRaul\bin\CVRaul.dll.config
 C:\Users\Vini_\source\repos\CVRaul\CVRaul\bin\CVRaul.dll
 C:\Users\Vini_\source\repos\CVRaul\CVRaul\bin\CVRaul.pdb
 C:\Users\Vini_\source\repos\CVRaul\CVRaul\bin\roslyn\csc.exe
@@ -116,3 +115,4 @@ C:\Users\Vini_\source\repos\CVRaul\CVRaul\obj\Debug\CVRaul.csproj.CoreCompileInp
 C:\Users\Vini_\source\repos\CVRaul\CVRaul\obj\Debug\CVRaul.csproj.CopyComplete
 C:\Users\Vini_\source\repos\CVRaul\CVRaul\obj\Debug\CVRaul.dll
 C:\Users\Vini_\source\repos\CVRaul\CVRaul\obj\Debug\CVRaul.pdb
+C:\Users\Vini_\source\repos\CVRaul\CVRaul\bin\CVRaul.dll.config

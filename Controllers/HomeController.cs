@@ -63,6 +63,11 @@ namespace CVRaul.Controllers
             return View();
         }
 
+        public ActionResult Portfolio()
+        {
+            return View();
+        }
+
         [HttpPost]
         public ActionResult Contact(Contato contato)
         {
