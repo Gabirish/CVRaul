@@ -1,4 +1,11 @@
+C:\Users\Vini_\source\repos\CVRaul\CVRaul\obj\Debug\CVRaul.Migrations.Primeira.resources
+C:\Users\Vini_\source\repos\CVRaul\CVRaul\obj\Debug\CVRaul.Migrations.Visitantes.resources
+C:\Users\Vini_\source\repos\CVRaul\CVRaul\obj\Debug\CVRaul.Migrations.metodos.resources
+C:\Users\Vini_\source\repos\CVRaul\CVRaul\obj\Debug\CVRaul.Migrations.correção.resources
+C:\Users\Vini_\source\repos\CVRaul\CVRaul\obj\Debug\CVRaul.csproj.GenerateResource.cache
+C:\Users\Vini_\source\repos\CVRaul\CVRaul\obj\Debug\CVRaul.csproj.CoreCompileInputs.cache
 C:\Users\Vini_\source\repos\CVRaul\CVRaul\bin\ApplicationInsights.config
+C:\Users\Vini_\source\repos\CVRaul\CVRaul\bin\CVRaul.dll.config
 C:\Users\Vini_\source\repos\CVRaul\CVRaul\bin\CVRaul.dll
 C:\Users\Vini_\source\repos\CVRaul\CVRaul\bin\CVRaul.pdb
 C:\Users\Vini_\source\repos\CVRaul\CVRaul\bin\roslyn\csc.exe
@@ -106,13 +113,6 @@ C:\Users\Vini_\source\repos\CVRaul\CVRaul\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\Vini_\source\repos\CVRaul\CVRaul\bin\Microsoft.AI.Web.xml
 C:\Users\Vini_\source\repos\CVRaul\CVRaul\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\Vini_\source\repos\CVRaul\CVRaul\obj\Debug\CVRaul.csprojAssemblyReference.cache
-C:\Users\Vini_\source\repos\CVRaul\CVRaul\obj\Debug\CVRaul.Migrations.Primeira.resources
-C:\Users\Vini_\source\repos\CVRaul\CVRaul\obj\Debug\CVRaul.Migrations.Visitantes.resources
-C:\Users\Vini_\source\repos\CVRaul\CVRaul\obj\Debug\CVRaul.Migrations.metodos.resources
-C:\Users\Vini_\source\repos\CVRaul\CVRaul\obj\Debug\CVRaul.Migrations.correção.resources
-C:\Users\Vini_\source\repos\CVRaul\CVRaul\obj\Debug\CVRaul.csproj.GenerateResource.cache
-C:\Users\Vini_\source\repos\CVRaul\CVRaul\obj\Debug\CVRaul.csproj.CoreCompileInputs.cache
 C:\Users\Vini_\source\repos\CVRaul\CVRaul\obj\Debug\CVRaul.csproj.CopyComplete
 C:\Users\Vini_\source\repos\CVRaul\CVRaul\obj\Debug\CVRaul.dll
 C:\Users\Vini_\source\repos\CVRaul\CVRaul\obj\Debug\CVRaul.pdb
-C:\Users\Vini_\source\repos\CVRaul\CVRaul\bin\CVRaul.dll.config
